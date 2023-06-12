@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.android.foodorderapp.R;
-import com.android.foodorderapp.model.Menu;
+import com.example.foodapp.R;
+import com.example.foodapp.model.Menu;
 import com.bumptech.glide.Glide;
 
 import java.util.List;

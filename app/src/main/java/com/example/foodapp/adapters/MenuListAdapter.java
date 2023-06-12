@@ -10,10 +10,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.android.foodorderapp.R;
-import com.android.foodorderapp.model.Menu;
-import com.android.foodorderapp.model.RestaurantModel;
+
+import com.example.foodapp.model.Menu;
+import com.example.foodapp.model.RestaurantModel;
 import com.bumptech.glide.Glide;
+import com.example.foodapp.R;
+import com.example.foodapp.RestaurantMenuActivity;
+
 
 import java.util.List;
 
@@ -25,6 +28,9 @@ public class MenuListAdapter extends RecyclerView.Adapter<MenuListAdapter.MyView
     public MenuListAdapter(List<Menu> menuList, MenuListClickListener clickListener) {
         this.menuList = menuList;
         this.clickListener = clickListener;
+    }
+
+    public MenuListAdapter(List<Menu> menuList, RestaurantMenuActivity clickListener) {
     }
 
     public void updateData(List<Menu> menuList) {

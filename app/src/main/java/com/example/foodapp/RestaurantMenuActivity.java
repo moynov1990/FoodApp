@@ -15,9 +15,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.foodorderapp.adapters.MenuListAdapter;
-import com.android.foodorderapp.model.Menu;
-import com.android.foodorderapp.model.RestaurantModel;
+import com.example.foodapp.adapters.MenuListAdapter;
+import com.example.foodapp.model.Menu;
+import com.example.foodapp.model.RestaurantModel;
 
 import java.util.ArrayList;
 import java.util.List;
